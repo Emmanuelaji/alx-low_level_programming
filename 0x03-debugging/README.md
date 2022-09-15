@@ -1,1 +1,1 @@
-# Solutions to debugging project
+Solutions to debugging project
