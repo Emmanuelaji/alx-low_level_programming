@@ -18,6 +18,6 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
 	c = a * b;
-	printf("%d\n, c);
+	printf("%d\n", c);
 	return (0);
 }
