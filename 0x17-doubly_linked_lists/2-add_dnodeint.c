@@ -1,10 +1,4 @@
-/*
- * File: 2-add_dnodeint.c
- * Auth: Gedeon Obae Gekonge
- */
-
 #include "lists.h"
-#include <stdlib.h>
 
 /**
  * add_dnodeint - Adds a new node at the beginning of a dlistint_t list.

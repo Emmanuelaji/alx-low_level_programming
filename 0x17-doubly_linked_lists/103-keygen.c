@@ -1,8 +1,3 @@
-/*
- * File: 103-keygen.c
- * Auth: Gedeon Obae Gekonge
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

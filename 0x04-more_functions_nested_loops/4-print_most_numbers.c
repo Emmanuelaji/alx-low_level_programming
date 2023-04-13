@@ -1,16 +1,22 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * print_most_numbers - prints 01356789\n
+ * print_most_numbers - prints 0 - 9 except 2, 3
+ * Description: prints
  * Return: void
  */
+
 void print_most_numbers(void)
 {
-	int c;
+	int a = 0;
 
-	for (c = 48; c < 58; c++)
+	while (a <= 9)
 	{
-		if (!(c == 50 || c == 52))
-			_putchar(c);
+		if (a != 2 && a != 4)
+		{
+			_putchar(a + '0');
+		}
+		a++;
 	}
 	_putchar('\n');
 }

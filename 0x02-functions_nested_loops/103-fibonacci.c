@@ -1,23 +1,23 @@
 #include <stdio.h>
 /**
- * main - print fibonacci
- * Return: always 0
+ * main - main block
+ * Description: computes and prints even  number < 4,000,000
+ * 5 below 1024 (excluded), followed by a new line
+ * Return: 0
  */
 int main(void)
 {
-unsigned int a, b, c, d, s;
-a = 1;
-b = 2;
-c = 3;
-s = 2;
-for (d = 2; d <= 32; d++)
-{
-if (c % 2 == 0)
-s = s + c;
-a = b;
-b = c;
-c = a + b;
-}
-printf("%u\n", s);
-return (0);
+	int a = 0, b = 1, next = 0;
+	int sum = 0;
+
+	while (next < 4000000)
+	{
+		next = a + b;
+		a = b;
+		b = next;
+		if (next % 2 == 0)
+			sum += next;
+	}
+	printf("%i\n", sum);
+	return (0);
 }

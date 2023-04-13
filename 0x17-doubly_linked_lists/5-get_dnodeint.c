@@ -1,8 +1,3 @@
-/*
- * File: 5-get_dnodeint.c
- * Auth: Gedeon Obae Gekonge
- */
-
 #include "lists.h"
 
 /**
